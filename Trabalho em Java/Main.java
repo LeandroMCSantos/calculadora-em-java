@@ -4,13 +4,11 @@ class Calculadora {
     private int num1;
     private int num2;
 
-    // Construtor
     public Calculadora(int num1, int num2) {
         this.num1 = num1;
         this.num2 = num2;
     }
 
-    // Getters e Setters
     public int getNum1() {
         return num1;
     }
@@ -27,7 +25,6 @@ class Calculadora {
         this.num2 = num2;
     }
 
-    // Métodos para operações
     public int somar() {
         return num1 + num2;
     }
@@ -60,7 +57,7 @@ public class Main {
             operador = scanner.next();
             
             if (operador.equals(".")) {
-                break; // Sai do loop
+                break;
             }
 
             System.out.println("Digite o primeiro número:");
